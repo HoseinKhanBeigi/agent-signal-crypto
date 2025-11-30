@@ -9,15 +9,19 @@ Since you don't want to train on your Mac, here's how to train everything on vas
 1. Go to https://cloud.vast.ai/
 2. Sign up / Login
 3. Click "Create" → "Instance"
-4. Choose GPU:
+4. **Select Template: "PyTorch (Vast)"** ⭐
+   - This has PyTorch pre-installed!
+   - Has CUDA support
+   - Has SSH access
+5. Choose GPU:
    - **RTX 3090** (~$0.50-0.70/hour) - Recommended
    - **RTX 4090** (~$0.80-1.20/hour) - Fastest
    - **RTX 3060** (~$0.20-0.40/hour) - Budget option
-5. Select instance with:
-   - ✅ CUDA support
-   - ✅ Python 3.8+
-   - ✅ At least 30GB storage
-   - ✅ Jupyter notebook (optional but helpful)
+6. Filter settings:
+   - Price: $0.20 - $1.00/hour
+   - GPU Count: 1
+   - Per GPU RAM: 8 GB minimum (16 GB+ recommended)
+7. Click "Create"
 
 ### 2. Upload Your Code
 
