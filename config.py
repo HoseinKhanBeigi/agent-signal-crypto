@@ -25,7 +25,7 @@ VALIDATION_SPLIT = 0.2
 TRAIN_TEST_SPLIT = 0.8
 
 # Data Parameters
-DATA_LIMIT = 2000  # Number of candles to fetch
+DATA_LIMIT = 25920  # Number of candles to fetch
 MIN_DATA_POINTS = 500  # Minimum data points required
 
 # Signal Generation
