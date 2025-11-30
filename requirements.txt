@@ -1,0 +1,23 @@
+# Core dependencies (Python 3.12 compatible)
+pandas==2.2.0
+numpy==1.26.4
+
+# CCXT for crypto data
+ccxt==4.2.25
+
+# Deep Learning - PyTorch (for LSTM, GRU, Transformer)
+torch>=2.1.0
+
+# XGBoost
+xgboost>=2.0.0
+
+# Technical indicators
+pandas-ta==0.3.14b0
+
+# Visualization
+matplotlib==3.8.2
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.66.1
+
